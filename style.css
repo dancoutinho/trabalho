@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #ff1a1a;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    margin-left: auto;
+  margin-right: auto;
+  display: flex;
+    
+}
+.menu li {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  
+
+.logo{
+   position: relative;
+   font-size: 2.7em;
+   color: #fff;
+   font-weight: 700;
+}
+.imgBx{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    top: -40px;
+    left: 50px;
+}
+.content{
+    max-width: 700px;
+    margin-left: 350px;
+    position: relative;
+    top: -230px;
+    text-transform: uppercase;
+}
+.content h2{
+   text-align: center;
+   text-transform: inherit;
+font-weight: 400;
+color: #fff;
+font-size: 2em;
+
+}
+.content h1{
+    text-align: center;
+    text-transform: inherit;
+ font-weight: 400;
+ color: black;
+ font-size: 2em;
+ position: relative;
+ top: 100px;
+
+ }
+ .teste2{
+    max-width: 700px;
+    margin-left: 550px;
+    position: relative;
+    top: -250px;
+    color: #fff;
+    text-transform: uppercase;
+ }
+#site
+{
+   margin-top: 0;
+   margin-left: 0;
+   margin-bottom: 0;
+   margin-right: auto;
+   background-color:   #ff8080;
+   padding: 200px;
+
+}
+.talk p 
+{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+  border-radius: 20px
+}
+
+.container{
+   background-color:  #ff704d;
+    display: flex;
+    color: #fff;
+}
+.container h2 {
+    position: absolute;
+    bottom: -10px;   
+    left: 250px; 
+}
+.container2{
+     display: flex;
+     color: #fff;
+}
+.container2 h2 {
+    position: absolute;
+    bottom: -10px;   
+    left: 700px; 
+}
+.container3{
+    display: flex;
+    color: #fff;
+}    
+.container3 h2 {
+    position: absolute;
+    bottom: 30px;   
+    left: 1100px; 
+   
+}   
+.foto{
+    position: absolute;
+    bottom: -15px;   
+    left: 1380px; 
+}
+.teste{
+    position: absolute;
+    bottom: -10px;   
+    left: 1100px; 
+    color: #fff;  
+    text-decoration: underline;
+}
+#layout{
+    color: #fff;
+}
+.logo1{
+    position: relative;
+    font-size: 1.4em;
+   color: #111;
+   font-weight: 500;
+   left: 65px;
+}
+.image1{
+    position: absolute;
+    bottom: -400px;
+    left: 200px
+}
+.título1{
+    color: black;
+    position: absolute;
+    bottom: -450px;
+    left: 200px;
+}
+.texto1{
+    position: absolute;
+    color: black;
+    bottom: -550px;
+    left: 200px;
+    font-size: 12px;
+}
+.link1{
+    position: absolute;
+    color: orangered;
+    text-decoration: underline;
+    font-size: 12px;
+    bottom: -590px;
+    left: 200px;
+}
+.image2{
+    position: absolute;
+    bottom: -400px;
+    left: 950px
+}
+.título2{
+    color: black;
+    position: absolute;
+    bottom: -450px;
+    left: 950px;
+}
+.texto2{
+    position: absolute;
+    color: black;
+    bottom: -550px;
+    left: 950px;
+    font-size: 12px;
+}   
+.link2{
+    position: absolute;
+    color: orangered;
+    text-decoration: underline;
+    font-size: 12px;
+    bottom: -590px;
+    left: 950px;
+}
+.image3{
+    position: absolute;
+    bottom: -950px;
+    left: 200px;
+}    
+.título3{
+    color: black;
+    
+    bottom: -750px;
+    left: 1100px;
+}
+.texto3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: black;
+    
+}
+.link3{
+    position: absolute;
+    color: orangered;
+    text-decoration: underline;
+    font-size: 12px;
+    bottom: 70px;
+    left: 10px;
+}
+.image4{
+    position: absolute;
+    bottom: 247px;
+    left: 750px
+}
+.título4{
+    
+    color: black;
+    position: relative;
+    bottom: 100px;
+    left: 750px;
+}
+.texto4{
+    position: relative;
+    bottom:85px;
+    left: 750px;
+    color: black;
+    font-size: 11px;
+}
+.link4{
+    position: relative;
+    color: orangered;
+    text-decoration: underline;
+    font-size: 12px;
+    bottom: 70px;
+    left: 750px;
+}
+#work{
+   color: #fff;
+}
+.parte1{
+    position: relative;
+    font-size: 1.4em;
+   color: #111;
+   font-weight: 500;
+   left: 65px;
+   bottom: -850px;
+}
+.containerr{
+    position: relative;
+   
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 1000px;
+    width: 540px;
+    height: 400px;
+}
+.containerr div{
+    flex: 1 1 300px;
+   
+}
+.foto1{
+    position: relative;
+    top: 1900px;
+    left: -360px;
+
+}
+
+.foto1 img{
+    max-width: 100%;
+    border-radius: 20px;
+ 
+    object-fit: fill;
+}
+.foto2{
+    position: relative;
+    top: 1535px;
+    left: 300px;
+}
+.foto2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.foto3{
+    position: relative;
+    top: 1600px;
+    left:300px;
+    
+}
+.foto3 img{
+    
+    border-radius: 20px;
+    width: 530px;
+    height: 300px;
+}
+.foto4{
+    position: relative;
+    top:1300px;
+    left: -360px;
+}
+.foto4 img{
+    width: 100%;
+    border-radius: 20px;
+}
+.botao p a{
+    position: relative;
+    color: orangered;
+    bottom: -1400px;
+    left:150px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: auto;
+  margin-right: auto;
+  font-size: 2.4em;
+text-transform: inherit;
+}
+#aboutme{
+    background-color: #ebebe0;
+    position: relative;
+    top: 1600px;
+    border-radius: 10px;
+}
+.sobre{
+    text-transform: inherit;
+    color: #111;
+    font-size: 1.9em;
+    background-size: 12px;
+}  
+.sobretexto h2{
+    position: relative;
+    color:  #000000;
+    top: 50px;
+    background-color: #ebebe0;
+}
+.textoo{
+    position: relative;
+    color: orange;
+    background-color: #ebebe0;
+    top: 60px;
+    text-transform: inherit
+} 
+.barra{
+    background-color: #ebebe0;
+   position: relative;
+   color: red;
+   top:90px;
+}
+#conjunto{
+    background-color: #ebebe0;
+}
+.figma{
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+.xd{
+    position: relative;
+    top: -50px;
+    left: 420px;
+}
+.sketch{
+    position: relative;
+    top: -250px;
+    left: 640px;
+}
+.illustrator{
+    position: relative;
+    top: -450px;
+    left: 860px;
+}
+.photoshop{
+    position: relative;
+    top: -650px;
+    left: 1080px;
+}
+.branco{
+    background-color: #fff;
+}
+#discurso{
+    background-color: #fff;
+}
+.titulodiscurso{
+    position: relative;
+    top: 1100px;
+    left: 550px;
+    color: black;
+    font-size: 1.9em;
+}
+.discurso1{
+    position: relative;
+    top: 1150px;
+    left: 250px;
+    color: #000000;
+    font-size: 0.9em;
+}
+.usuario{
+    position: relative;
+    top: 1250px;
+    left: 650px;
+    width: 100px;
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+    overflow: hidden;
+    color: blue;
+    background-color: green;
+}
+.subtitulo{
+    position: relative;
+    top: 1150px;
+    left: 780px;
+    color: orangered;
+}
+.designer{
+    position: relative;
+    top: 1170px;
+    left: 780px;
+    color: #000000;
+    font-size: 0.7em;
+}
+
+.notice{
+    position: relative;
+    top: 1370px;
+    left: 80px;
+    color: #111;
+    font-size: 1.4em;
+}
+.slide1{
+    position: relative;
+    width: 315px;
+    height: 200px;
+    top: 1470px;
+    left: 500px;
+}
+.textoslide1 a{
+    top: 1300px;
+    left:  600px;
+    color: orangered;
+    position: relative;
+    font-size: 1.2em;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alan h2{
+    position: relative;
+    top: 1265px;
+    left:  700px;
+    color:#111;
+    font-size: 1.2em;
+}
+.spa h2{
+    position: relative;
+    top: 1100px;
+    left:  500px;
+    color: white;
+}
+.slide2{
+    position: relative;
+    top: 1670px;
+    left: 500px;
+}
+.alan2 h2{
+    position: relative;
+    top: 1185px;
+    left:  700px;
+    color:#111;
+    font-size: 1.2em;
+}
+.textoslide2 a{
+    top: 1220px;
+    left:  550px;
+    color: orangered;
+    position: relative;
+    font-size: 1.2em;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spa2 h2{
+    position: relative;
+    top: 1450px;
+    left:  500px;
+    color: white;
+}
+footer{
+    position: relative;
+    background-color: #111;
+    height: auto;
+    width:100vw;
+    padding-top: 70px;
+    color: #fff;
+    top: 1500px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.4em;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3em;
+    position: relative;
+    left: -600px;
+    top:-50px;
+    color: #ffb380;
+}
+.footer-content p{
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 0.9em;
+        position: relative;
+        left: -500px;
+        top:-40px;
+}
+.socials{
+    position: relative;
+    left: -550px;
+    top:-10px;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    display: flex;
+}
+.footer-bottom a{
+    position: relative;
+    display: block;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    left: 400px;
+    margin-left: 10px;
+}
+.botao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -150px;
+    left: 400px;
+} 
+.btn{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 15px;
+    padding: 10px 35px;
+
+    border: 2px solid  #ff5c33;
+    position: relative;
+}
